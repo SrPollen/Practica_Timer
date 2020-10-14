@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <Button
+            android:id="@+id/btn_go_save"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:text="Go to save data" />
+
+        <Button
+            android:id="@+id/btn_permisos"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:text="Go to permissions" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="209dp"
+        android:layout_marginBottom="348dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/time_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time in this activity: 0"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/time_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time in save data: 0"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/time_permisos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time in permissions: 0"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/save_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save data: false"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/add_permisos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add perimissions: false"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
