@@ -50,8 +50,6 @@ public class SaveData extends AppCompatActivity {
                 intent.putExtra("timesave", currenTime);
                 setResult(RESULT_OK, intent);
                 finish();
-                //intent.putExtra("time", String.valueOf(currenTime));
-                //startActivity(intent);
             }
         });
         cronoSave();

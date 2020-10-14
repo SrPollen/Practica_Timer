@@ -49,8 +49,6 @@ public class Permission extends AppCompatActivity {
                 intent.putExtra("timepermisos", currenTime);
                 setResult(RESULT_OK, intent);
                 finish();
-                //intent.putExtra("time", String.valueOf(currenTime));
-                //startActivity(intent);
             }
         });
         cronoPermisos();

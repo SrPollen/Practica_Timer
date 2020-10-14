@@ -91,14 +91,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-       // this.timer.cancel();
         stopCrono();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-       // timer.schedule(timertask,1,1000);
         cronoHome();
     }
 
